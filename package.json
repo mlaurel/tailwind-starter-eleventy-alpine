@@ -3,8 +3,8 @@
     "version": "1.0.0",
     "description": "Tailwind 2 starter template using Eleventy and AlpineJS",
     "scripts": {
-        "start": "eleventy --serve & postcss styles/tailwind.css --o _tmp/style.css --watch",
-        "build": "ELEVENTY_PRODUCTION=true eleventy && NODE_ENV=production postcss styles/tailwind.css --o _site/css/style.css && cleancss _site/css/style.css -o _site/css/style.css",
+        "start": "eleventy --serve & postcss src/styles/tailwind.css --o _tmp/style.css --watch",
+        "build": "ELEVENTY_PRODUCTION=true eleventy && NODE_ENV=production postcss src/styles/tailwind.css --o _site/css/style.css && cleancss _site/css/style.css -o _site/css/style.css",
         "clean": "rm -rf _site"
     },
     "devDependencies": {
