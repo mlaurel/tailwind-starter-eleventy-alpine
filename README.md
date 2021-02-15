@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/01f1abc2-7fe6-481a-970a-250f9da9b8fc/deploy-status)](https://app.netlify.com/sites/tailwind-starter-eleventy-alpine/deploys)
 # Tailwind Starter 11ty AlpineJS
 
 Tailwind starter template which uses:
